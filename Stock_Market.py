@@ -1,3 +1,5 @@
+import numpy as np
+np.float_ = np.float64
 import yfinance as yf
 import streamlit as st
 import pandas as pd
