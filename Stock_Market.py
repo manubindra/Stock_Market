@@ -125,7 +125,7 @@ if ticker:
 intervals = [ "5m", "15m", "30m", "60m", "3h", "1d", "5d", "1mo", "3mo", "6mo", "1y"]
 selected_intervals = st.selectbox("Select Intervals", intervals)    
 
-if st.button("Fetch Data and Plot Boxplot"):
+if st.button("Fetch Data"):
     data = yf.download(ticker, start=start_date, end=end_date, interval=selected_intervals)
     st.write(f"Data for interval: {selected_intervals}")
     st.write(data)
