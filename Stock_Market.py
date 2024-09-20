@@ -16,6 +16,10 @@ required_packages = [
     "pystan",
     "matplotlib"
 ]
+# Install required packages
+for package in required_packages:
+    install(package)
+
 import numpy as np
 np.float_ = np.float64
 import yfinance as yf
