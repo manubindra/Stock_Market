@@ -1,14 +1,3 @@
-pip install numpy
-pip install yfinance
-pip install streamlit
-pip install pandas
-pip install datetime
-pip install plotly
-pip install matplotlib
-pip install seaborn
-pip install prophet
-
-
 import numpy as np
 np.float_ = np.float64
 import yfinance as yf
