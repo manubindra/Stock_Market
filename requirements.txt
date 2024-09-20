@@ -1,0 +1,5 @@
+yfinance
+plotly
+matplotlib
+seaborn
+prophet
