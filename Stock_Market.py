@@ -1,3 +1,21 @@
+import subprocess
+import sys
+
+# Function to install packages
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# List of required packages
+required_packages = [
+    "streamlit",
+    "yfinance",
+    "pandas",
+    "plotly",
+    "prophet",
+    "numpy",
+    "pystan",
+    "matplotlib"
+]
 import numpy as np
 np.float_ = np.float64
 import yfinance as yf
