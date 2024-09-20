@@ -1,24 +1,13 @@
-import subprocess
-import sys
+!pip install numpy
+!pip install yfinance
+!pip install streamlit
+!pip install pandas
+!pip install datetime
+!pip install plotly
+!pip install matplotlib
+!pip install seaborn
+!pip install prophet
 
-# Function to install packages
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# List of required packages
-required_packages = [
-    "streamlit",
-    "yfinance",
-    "pandas",
-    "plotly",
-    "prophet",
-    "numpy",
-    "pystan",
-    "matplotlib"
-]
-# Install required packages
-for package in required_packages:
-    install(package)
 
 import numpy as np
 np.float_ = np.float64
