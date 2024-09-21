@@ -100,7 +100,7 @@ if ticker:
     df = pd.DataFrame(data)
     st.table(df)
   # Create a combined chart using Plotly
-    st.subheader(f"Boxplot for 15-minute intervals from {start_date} to {end_date}")
+    #st.subheader(f"Boxplot for 15-minute intervals from {start_date} to {end_date}")
     fig = go.Figure()
         
         # Add box plot trace
